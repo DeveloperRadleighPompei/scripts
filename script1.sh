@@ -1,6 +1,6 @@
 # Install VSCode Server
 bash <(curl -s https://raw.githubusercontent.com/coder/code-server/main/install.sh) --port 8080 --host 0.0.0.0 --auth password --password PI21ccua!!
-
+sudo apt install curl -y
 # Create config file
 mkdir -p ~/.config/code-server
 echo "bind-addr: 0.0.0.0:8080" > ~/.config/code-server/config.yaml
